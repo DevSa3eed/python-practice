@@ -4,11 +4,11 @@ from datetime import datetime
 
 
 GENDER = "MALE"
-WEIGHT_KG = 85
-HEIGHT_CM = 172
-AGE = 31
-APP_ID = "0364bbf9"
-API_KEY = "c60424340248d0e2bae5ee06c41834f8"
+WEIGHT_KG =
+HEIGHT_CM =
+AGE =
+APP_ID =
+API_KEY =
 
 exercise_endpoint = "https://trackapi.nutritionix.com/v2/natural/exercise"
 sheet_endpoint = "https://api.sheety.co/c066f048e8e01858efec986f04a6dc42/myWorkouts/workouts"
@@ -49,9 +49,9 @@ for exercise in result["exercises"]:
         sheet_endpoint,
         json=sheet_inputs,
         auth=(
-        "didosaeed",
-        "didosaeed",
+            "",
+            "",
         )
-                                   )
+    )
 
     print(sheet_response.text)
